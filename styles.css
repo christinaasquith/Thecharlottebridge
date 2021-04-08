@@ -29,6 +29,9 @@ img {
     border-radius: 10%;
     overflow: hidden;
 }
+.substack {
+    text-align:center;
+}
 
 .bridge {
     background-image: url('https://cloud-4n3rds9is-hack-club-bot.vercel.app/0charlotte.jpeg');
