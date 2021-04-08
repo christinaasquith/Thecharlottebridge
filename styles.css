@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    background-color: white;
+    font-family: 'Mirza', cursive;
+    color: black;
+    line-height: 30px;
+ 
+}
+ 
+
+ 
+img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+
+.chea img{
+    width:250px;
+    height:250px;
+    border-radius: 20%;
+}
