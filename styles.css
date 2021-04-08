@@ -1,31 +1,83 @@
 body{
     text-align: center;
     padding-top: 30px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-bottom: 40px;
-    background-color: rgb(233, 232, 201);
+    background-color: white;
+    background: #eaead1;
     font-family: 'Mirza', cursive;
     color: black;
     line-height: 30px;
- 
+    text-rendering:geometricPrecision;
 }
- 
 
- 
-img {
-    width: 500px;
-    height: 300px;
-    border-radius: 10%;
+p, li {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
 }
 
 ul {
     text-align: center;
     list-style-position: inside;
 }
+ 
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.bridge {
+    background-image: url('https://cloud-4n3rds9is-hack-club-bot.vercel.app/0charlotte.jpeg');
+    /* width: 500px; */
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+figure {
+    margin: 0;
+}
 
 .chea img{
     width:250px;
-    height:250px;
-    border-radius: 20%;
+    /* height:auto; */
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 32px rgba(0,0,0,0.2);
 }
+
+.lead {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.4rem;
+}
+.lead::after {
+    content: ':'
+}
+
+/* Copied from https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
+/* Set the background color of body to tan */
+
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
