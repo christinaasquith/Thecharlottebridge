@@ -1,8 +1,8 @@
 body{
     text-align: center;
     padding-top: 30px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-bottom: 40px;
     background-color: white;
     background: #eaead1;
@@ -58,7 +58,7 @@ figure {
 
 .lead {
   font-weight: bold;
-  text-decoration: underline;
+  
   font-size: 1.4rem;
 }
 .lead::after {
