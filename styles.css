@@ -117,6 +117,11 @@ figure {
   color: inherit;
 }
 
+/* This applies the styles that appear when you highlight words on the page with your cursor! */
+::selection {
+  background-color: #d15757;
+}
+
 /* Copied from https://www.w3schools.com/css/css3_mediaqueries_ex.asp */
 /* Set the background color of body to tan */
 
