@@ -3,13 +3,68 @@ body{
     padding-top: 30px;
     padding-left: 250px;
     padding-right: 250px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     background-color: white;
     background: #eaead1;
     font-family: 'Mirza', cursive;
     color: black;
     line-height: 30px;
     text-rendering:geometricPrecision;
+}
+
+a:link {
+  color: rgb(212, 91, 18);
+}
+
+a:visited {
+  color: rgb(212, 91, 18);
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 50px;
+  padding-top: 30px;
+  margin: 0px;
+}
+h2 {
+  font-size: 40px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  font-size: 25px;
+  line-height: 30px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  margin-top: 5%;
+}
+
+.button {
+  border-color: black;
+  background-color: transparent;
+  padding: 23px 20px 17px 20px;
+  font-size: 15px;
+  border-radius: 25px;
+  display: inline-flex;
+  line-height: 10px;
+  align-items: center; 
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0px 10px 0px 10px;
+
+}
+
+
+.call-to-action {
+  padding-bottom: 50px;
+}
+
+.the-staff {
+  margin-top: 40px;
 }
 
 p, li {
@@ -49,7 +104,7 @@ figure {
 }
 
 .chea img{
-    width:150px;
+    width: max-content;
     /* height:auto; */
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.5);
