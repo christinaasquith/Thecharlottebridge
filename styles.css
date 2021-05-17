@@ -80,7 +80,7 @@ ul {
 }
 
 img {
-  width: 500px;
+  width: max-content;
   height: auto;
   border-radius: 10%;
   overflow: hidden;
@@ -103,8 +103,6 @@ img {
 
 figure {
   margin: 0;
-}
-
 }
 
 .lead {
