@@ -101,6 +101,10 @@ img {
   background-position: center;
 }
 
+.footer-message {
+  font-size: 14px;
+  line-height: 20px;
+}
 figure {
   margin: 0;
 }
