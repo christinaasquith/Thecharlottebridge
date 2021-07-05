@@ -6,7 +6,7 @@ body{
     padding-right: 250px;
     padding-bottom: 40px;
     background-color: white;
-    background: #C2D3EA;
+    background: #9CCDF5;
     font-family: 'Mirza', cursive;
     color: black;
     line-height: 30px;
@@ -39,9 +39,14 @@ h3 {
   padding: 0px;
   margin: 0px;
 }
+ 
 
 .header {
   margin-top: 5%;
+}
+
+.header-link {
+  margin-left: 40px;
 }
 
 .button {
