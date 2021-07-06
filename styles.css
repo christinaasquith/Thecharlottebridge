@@ -7,7 +7,7 @@ body{
     padding-bottom: 40px;
     background-color: white;
     background: #9CCDF5;
-    font-family: 'Mirza', cursive;
+    /* font-family: 'Mirza', cursive; */
     color: black;
     line-height: 30px;
     text-rendering:geometricPrecision;
@@ -30,6 +30,7 @@ h1 {
 h2 {
   font-size: 40px;
   padding: 0px;
+  line-height: 3rem;
   margin: 0px;
 }
 
@@ -93,6 +94,10 @@ img {
 
 .substack {
   text-align: center;
+}
+
+.bridge-figure {
+  padding: 15px;
 }
 
 .bridge {
